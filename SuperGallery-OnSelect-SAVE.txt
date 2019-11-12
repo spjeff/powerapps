@@ -1,0 +1,1 @@
+If(ctxEdit, Patch(LeaveRequest, First(Filter(LeaveRequest, ID=Value(ctxID))), {Title: ".", Start:frmStart.SelectedDate, End:frmEnd.SelectedDate, Hours: Value(frmHours.Text), Notes: frmNotes.Text}), Patch(LeaveRequest, Defaults(LeaveRequest), {Title: ".", Start:frmStart.SelectedDate, End:frmEnd.SelectedDate, Hours: Value(frmHours.Text), Notes: frmNotes.Text}))

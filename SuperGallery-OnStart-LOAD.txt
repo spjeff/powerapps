@@ -1,0 +1,1 @@
+Clear(ctxCollect); Set(ctxEdit, true);Set(ctxEdit, false); Navigate(Main); Set(ctxID, Param("ID")); If(!IsBlank(ctxID), Set(ctxEdit, true)); ClearCollect(ctxCollect, Filter(LeaveRequest,ID = Value(ctxID)))

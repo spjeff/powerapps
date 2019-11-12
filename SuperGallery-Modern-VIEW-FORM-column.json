@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "children": [
+    {
+      "elmType": "a",
+      "style": {
+        "color": "white",
+        "display": "inline-block",
+        "padding": "4px",
+        "background-color": "purple"
+      },
+      "attributes": {
+        "target": "_blank",
+        "href": "='https://apps.powerapps.com/play/015ba39a-db14-4d5f-80a9-c23881784383?tenantId=19e61d8c-a318-488b-8d4e-33bc232b3530&source=portal&screenColor=rgba(0%2C%20176%2C%20240%2C%201)&ID=' + [$ID]"
+      },
+      "children": [
+        {
+          "elmType": "span",
+          "txtContent": "VIEW FORM"
+        }
+      ]
+    }
+  ]
+}
